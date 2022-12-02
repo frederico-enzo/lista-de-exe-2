@@ -34,15 +34,25 @@
             <section class="validos">
                 <label for="votos-validos">votos em validos</label>
                 <input type="number" id="votos-validos">
-            
-                    
-             
             </section>
-            <button type="submit" onclick="send()">Enviar dados</button>
+            <input type="button" value="enviar" onclick="send()">
         </form>
     </section>
 
-
+    <section class="sas">
+        <article class="branc">
+            <p>Porcentagen de votos em branco foi</p>
+            <p id="f"></p>
+        </article>
+        <article class="nul">
+            <p>Porcentagen de votos em nulos foi</p>
+            <p id="c"></p>
+        </article>
+        <article class="valid">
+            <p>Porcentagen de votos em validos foi</p>
+            <p id="a"></p>
+        </article>
+    </section>
 
     <script src="index.js"></script>
 </body>
